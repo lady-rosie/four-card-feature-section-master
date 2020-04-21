@@ -15,6 +15,8 @@ color: #c2c2c4;
 }
 .container{
   margin: 0 auto;
+  width:100%;
+  text-align: center;
 }
 
 .features{
@@ -92,3 +94,9 @@ color: #c2c2c4;
   position: absolute;
   right: 20px;
 }
+@media (max-width: 720px) {
+  .features{
+    flex-direction: column;
+  }
+}
+
